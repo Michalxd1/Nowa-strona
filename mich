@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Moja prosta strona</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Witaj na mojej stronie!</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#o-mnie">O mnie</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="o-mnie">
+            <h2>O mnie</h2>
+            <p>Cześć! Jestem [Twoje imię], a to moja pierwsza strona internetowa.</p>
+            <button onclick="przywitaj()">Kliknij mnie!</button>
+        </section>
+
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <p>Możesz napisać do mnie na email: <a href="mailto:mojemail@example.com">mojemail@example.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Moja strona internetowa</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
